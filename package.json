@@ -3,9 +3,6 @@
   "title": "itexfx",
   "version": "1.0.0",
   "author": "Jack Roberts",
-  "license": {
-    "type": "MIT"
-  },
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
