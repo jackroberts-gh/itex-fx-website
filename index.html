@@ -63,7 +63,7 @@
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Open Account
                   <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#" data-toggle="modal" data-target="#privateModal">Private</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#personalModal">Personal</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#corporateModal">Corporate</a></li>
                   </ul>
                 </li>
@@ -84,9 +84,9 @@
                     <li>
                         <a class="page-scroll" href="#clients">Clients</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a class="page-scroll" href="#casestudies">Case Studies</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a class="page-scroll" href="#about">About us</a>
                     </li>
@@ -168,19 +168,21 @@
                 <div class="personal-box"></div>
                   <hr class="dark"/>
                   <h2>Personal</h2>
-                  <p class="tagline thin">Whether you’re buying an overseas property, paying for your wedding abroad, transferring tuition fees or ready to purchase your next super yacht! You will need to make the payment in the local currency.</p>
+                  <p class="tagline thin">Whether you’re buying an overseas property, paying for your wedding abroad, transferring tuition fees or ready to purchase your next super yacht! Whatever the reason might be, you will need to make the payment in the local currency.</p>
+                  <a a href="#" data-toggle="modal" data-target="#personalModal" class="btn btn-default btn-xl sr-button">Sign up to Personal</a>
                 </div>
               <div class="col-md-6">
                 <div class="corporate-box top-pad"></div>
                   <hr class="dark"/>
                   <h2>Corporate</h2>
                   <p class="tagline thin">If your business requires you to import goods from abroad, your suppliers will need to be paid in their local currencies. Alternatively, if you are receiving payments from abroad in another currency this again will need converting into your domestic currency. </p>
+                  <a a href="#" data-toggle="modal" data-target="#corporateModal"class="btn btn-default btn-xl sr-button">Sign up to Corporate</a>
               </div>
           </div>
         </div>
         </section>
 
-    <section class="no-padding" id="casestudies">
+    <!--<section class="no-padding" id="casestudies">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-12">
@@ -308,7 +310,7 @@
                             </div>
                         </div>
                     </a>
-                </div>-->
+                </div>
             </div>
         </div>
     </section>
@@ -319,15 +321,15 @@
                 <h2>Case Studies</h2>
             </div>
         </div>
-    </aside>
+    </aside>-->
 
-    <section class="bg-primary" id="about">
+    <section class="bg-dark" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">About us</h2>
                     <hr class="light">
-                    <p class="text-faded">itexFX is a London based Currency Exchange service for private and corporate clients. We offer better than bank exchange rates and can transact in 160 currency pairs. All clients’ accounts are segregated according to FCA regulations with transparent rates, fee’s and no hidden costs. Our main goal is to provide you with a cheaper and more cost effective way of securely transferring your money.</p>
+                    <p class="text-faded thin">itexFX is a London based Currency Exchange service for private and corporate clients. We offer better than bank exchange rates and can transact in 160 currency pairs. All clients’ accounts are segregated according to FCA regulations with transparent rates, fee’s and no hidden costs. Our main goal is to provide you with a cheaper and more cost effective way of securely transferring your money.</p>
                     <a href="#page-top" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
                 </div>
             </div>
@@ -339,18 +341,18 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <hr class="primary">
+                    <hr class="dark">
                       <p>Get in touch with itexFX now!</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
                     <p>Support</br>
-                    020 1234 5678</p>
+                    <a href="tel:+442008239283">+44 20 0823 9283 </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
                     <p>Dealing Desk</br>
-                    020 1234 5678</p>
+                    <a href="tel:+442008239283">+44 20 0823 9283 </a></p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
@@ -358,10 +360,14 @@
                       <a href="mailto:your-email@your-domain.com">info@itexFX.com</a></p>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <hr class="primary">
+                  <hr class="dark">
                   <i class="fa fa-facebook-square fa-3x sr-contact"></i>
                   <i class="fa fa-twitter-square fa-3x sr-contact"></i>
                   <i class="fa fa-linkedin-square fa-3x sr-contact"></i>
+                  <hr class="dark">
+                  <p class="sr-contact">
+                    The Currency Cloud, 12 Steward Street, London, E1 6FQ, UK
+                  </p>
                 </div>
             </div>
         </div>
@@ -396,14 +402,14 @@
       </div>
     </div>
     <!-- End of corporate modal -->
-    <div class="modal fade" id="privateModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="personalModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h4 class="modal-title" id="myModalLabel">Open Account - Private</h4>
+            <h4 class="modal-title" id="myModalLabel">Open Account - Personal</h4>
           </div>
           <div class="modal-body">
             <center><iframe src="https://apps.fxcg.net/forms/signup/itexfxlimited" height="500" style="border:0px;"></iframe></center>
