@@ -3,6 +3,86 @@
 
 //Custom edits for itexfx
 
+.flipped {
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+}
+.flip-container, .front, .back{
+width:100%;
+}
+/* flip speed goes here */
+.flipper {
+-webkit-transition:0.6s;
+   -moz-transition:0.6s;
+     -o-transition:0.6s;
+        transition:0.6s;
+-webkit-transform-style:preserve-3d;
+   -moz-transform-style:preserve-3d;
+    -ms-transform-style:preserve-3d;
+     -o-transform-style:preserve-3d;
+        transform-style:preserve-3d;
+position:relative;
+}
+.flipper1 {
+-webkit-transition:0.6s;
+   -moz-transition:0.6s;
+     -o-transition:0.6s;
+        transition:0.6s;
+-webkit-transform-style:preserve-3d;
+   -moz-transform-style:preserve-3d;
+    -ms-transform-style:preserve-3d;
+     -o-transform-style:preserve-3d;
+        transform-style:preserve-3d;
+position:relative;
+}
+.flipper2 {
+-webkit-transition:0.6s;
+   -moz-transition:0.6s;
+     -o-transition:0.6s;
+        transition:0.6s;
+-webkit-transform-style:preserve-3d;
+   -moz-transform-style:preserve-3d;
+    -ms-transform-style:preserve-3d;
+     -o-transform-style:preserve-3d;
+        transform-style:preserve-3d;
+position:relative;
+}
+/* hide back of pane during swap */
+.front, .back{
+/*backface-visibility*/
+-webkit-backface-visibility:hidden;
+   -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+     -o-backface-visibility:hidden;
+        backface-visibility:hidden;
+position:absolute;
+}
+/* back, initially hidden pane */
+.back{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+}
+
+
+.top-pad {
+  margin-top: 40px;
+}
+
+.bottom-pad {
+  margin-bottom: 30px;
+}
+
+.thin {
+  font-weight:100;
+}
+
 @media screen and (min-width: 768px) {
   .modal-corporate {
      width: 55%;
@@ -321,6 +401,7 @@ header {
             .project-category {
                 font-weight: 600;
                 font-size: 14px;
+                margin-top:-20px;
             }
             .project-name {
                 font-size: 18px;
