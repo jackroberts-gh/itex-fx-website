@@ -431,7 +431,11 @@
         </div>
       </div>
     </div>
-
+<script type="text/javascript">
+$('body').on('touchstart.dropdown', '.dropdown-menu', function (e) {
+  e.stopPropagation();
+});
+</script>
 
     <!-- jQuery -->
       <script
