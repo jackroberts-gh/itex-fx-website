@@ -3,6 +3,9 @@
  * Copyright 2013-2016 Jack Roberts
  * Licensed under  ()
  */
+a.blue {
+  color: #337ab7;
+}
 .flipped {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -119,8 +122,8 @@
   font-weight: 200;
 }
 .personal-box {
-  width: 300px;
-  height: 280px;
+  width: 200px;
+  height: 190px;
   background-image: url('../img/personal.jpg');
   background-size: cover;
   border-radius: 50%;
@@ -128,8 +131,8 @@
   margin: 0 auto;
 }
 .corporate-box {
-  width: 300px;
-  height: 280px;
+  width: 200px;
+  height: 190px;
   background-image: url('../img/corporate.jpg');
   background-size: cover;
   border-radius: 50%;
@@ -200,7 +203,7 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 150px 0;
+  padding: 120px 0;
 }
 aside {
   padding: 50px 0;
