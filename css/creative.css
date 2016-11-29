@@ -3,6 +3,9 @@
  * Copyright 2013-2016 Jack Roberts
  * Licensed under  ()
  */
+.clickable {
+  cursor: pointer;
+}
 a.blue {
   color: #337ab7;
 }
